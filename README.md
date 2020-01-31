@@ -1,2 +1,2 @@
 # softruck
-Repositório para projeto softrucl
+Repositório para projeto softruck
