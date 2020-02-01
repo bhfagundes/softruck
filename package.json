@@ -7,7 +7,9 @@
     "client-dev": "webpack-dev-server --port 4000 --hot --inline --watch --progress",
     "server-dev": "opn http://localhost:8000 && nodemon ./app/server/public/server.js localhost 8000",
     "build": "webpack -p",
-    "deploy": "mern-scripts deploy"
+    "deploy": "mern-scripts deploy",
+    "start": "node server.js",
+    "server": "nodemon server.js"
   },
   "engines": {
     "node": "^8.5.0"
@@ -15,7 +17,7 @@
   "author": "Author of softruck",
   "license": "MIT",
   "dependencies": {
-    "axios": "^0.17.1",
+    "axios": "^0.19.2",
     "bcryptjs": "^2.4.3",
     "body-parser": "^1.19.0",
     "concurrently": "^5.1.0",
@@ -24,7 +26,7 @@
     "express": "^4.17.1",
     "is-empty": "^1.2.0",
     "jsonwebtoken": "^8.5.1",
-    "mongodb": "^2.2.33",
+    "mongodb": "^3.5.2",
     "mongoose": "^5.8.11",
     "passport": "^0.4.1",
     "passport-jwt": "^4.0.0",
@@ -38,17 +40,17 @@
     "babel-loader": "^7.1.2",
     "babel-preset-env": "^1.6.1",
     "babel-preset-react": "^6.24.1",
-    "css-loader": "^0.28.7",
+    "css-loader": "^3.4.2",
     "file-loader": "^1.1.5",
     "html-webpack-plugin": "^2.30.1",
     "mern-scripts": "^0.1.7",
     "nodemon": "^1.19.4",
     "opn-cli": "^3.1.0",
-    "serve": "^6.4.0",
+    "serve": "^11.3.0",
     "style-loader": "^0.19.0",
     "svg-react-loader": "^0.4.5",
     "url-loader": "^0.6.2",
-    "webpack": "^3.8.1",
+    "webpack": "^4.41.5",
     "webpack-dev-server": "^2.9.4"
   }
 }
